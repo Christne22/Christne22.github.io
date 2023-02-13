@@ -1,0 +1,198 @@
+<<<<<<< HEAD
+body {	
+   background-color: #ffcce0;
+   font-family: "Lucida Handwriting", "Brush Script MT", sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	background-color: #4b1b5b;
+	color: #fffff0;
+	padding: 25px 0;
+	min-height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a {
+	color: #ff80b3;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #ccc;
+	font-weight: bold;
+}
+
+h1 {
+   color: #fffff0;
+   font-size: 40px;
+   font-family: "Gabriola", "Arial", sans-serif;
+}
+
+figcaption {
+   font-size: 1.5rem;
+   font-family: "Gabriola", "Lucinda Handwriting", sans-serif; 
+}
+
+img {
+   height: 400px;	
+}
+#first_img {
+   float: left;
+   margin: 0 0 0 100px;
+}
+
+#second_img {
+   float: right;
+   margin: 0 100px 0 0;
+}
+
+.showcase {
+   min-height: 450px;	
+}
+
+/* Footer */
+footer {
+	background-color: #4b1b5b;
+	color: #fffff0;
+	font-size: 1.5rem; 
+	text-align: center;
+	font-family: "Gabriola", "Lucinda Handwriting", sans-serif; 
+}
+
+#box {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+=======
+body {	
+   background-color: #ffcce0;
+   font-family: "Lucida Handwriting", "Brush Script MT", sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header {
+	background-color: #4b1b5b;
+	color: #fffff0;
+	padding: 25px 0;
+	min-height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a {
+	color: #ff80b3;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #ccc;
+	font-weight: bold;
+}
+
+h1 {
+   color: #fffff0;
+   font-size: 40px;
+   font-family: "Gabriola", "Arial", sans-serif;
+}
+
+figcaption {
+   font-size: 1.5rem;
+   font-family: "Gabriola", "Lucinda Handwriting", sans-serif; 
+}
+
+img {
+   height: 400px;	
+}
+#first_img {
+   float: left;
+   margin: 0 0 0 100px;
+}
+
+#second_img {
+   float: right;
+   margin: 0 100px 0 0;
+}
+
+.showcase {
+   min-height: 450px;	
+}
+
+/* Footer */
+footer {
+	background-color: #4b1b5b;
+	color: #fffff0;
+	font-size: 1.5rem; 
+	text-align: center;
+	font-family: "Gabriola", "Lucinda Handwriting", sans-serif; 
+}
+
+#box {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+>>>>>>> 678c45d483b3a98ab886413023172b21974d87a6
+}
