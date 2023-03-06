@@ -207,20 +207,6 @@ ul.columns {
   font-size: 1rem;
 }
 
-
-@media (min-width: 460px) {
-  ul.columns {
-    columns: 2;
-  }
-}
-
-@media (min-width: 880px) {
-  ul.columns {
-    columns: 3;
-    text-align: center;
-  }
-}
-
 ol ol,
 ul ul,
 ol ul,
@@ -274,6 +260,7 @@ sup {
 a {
   color: #dc3545;
   text-decoration: underline;
+  text-center;
 }
 a:hover {
   color: #3399ff;
