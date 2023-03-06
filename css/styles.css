@@ -106,7 +106,7 @@ h6, .h6, h3, .h3, h4, .h4, h2, .h2, h1, .h1 {
   margin-bottom: 0.25rem;
   font-family: "Lucida Handwriting", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 600;
-  line-height: 1;
+  line-height: 1.25;
 }
 h5, .h5 {
   margin-top: 0rem;
@@ -130,7 +130,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -187,7 +187,7 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 0;
 }
 
 ol,
@@ -195,6 +195,29 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  
+}
+
+ul.columns {
+  margin-top: 0rem;
+  padding-left: 15px;
+  margin-bottom: 1rem;
+  columns: 3;
+  text-align:center;
+  font-size: 1rem;
+}
+
+
+@media (min-width: 460px) {
+  ul.columns {
+    columns: 2;
+  }
+}
+
+@media (min-width: 880px) {
+  ul.columns {
+    columns: 3;
+  }
 }
 
 ol ol,
@@ -252,7 +275,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: #3399ff;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -260,6 +283,9 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+ul {
+  text-align: center;
+}
 pre,
 code,
 kbd,
@@ -11328,6 +11354,7 @@ p {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 1rem;
 }
+
 @media (min-width: 576px) {
   section {
     padding: 2rem 0 0 0;
@@ -11792,14 +11819,14 @@ header.masthead7 .masthead7-heading {
   background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.2rem;
+  font-family: "Footlight MT Light", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Footlight MT Light", "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .portfolio-modal .modal-dialog {
