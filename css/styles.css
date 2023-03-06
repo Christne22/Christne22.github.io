@@ -194,17 +194,36 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   
 }
 
+.attractions {
+   background-color: #b3e6ff;
+   padding-bottom: 2em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 0rem;
+
+}
+
 ul.columns {
-  margin-top: 0rem;
-  padding-left: 15px;
-  margin-bottom: 1rem;
   columns: 3;
   text-align: center;
   font-size: 1rem;
+}
+
+
+@media (min-width: 460px) {
+  ul.columns .attractions {
+    columns: 2;
+  }
+}
+
+@media (min-width: 880px) {
+  ul.columns .attractions {
+    columns: 3;
+    text-align: center;
+  }
 }
 
 ol ol,
@@ -259,8 +278,7 @@ sup {
 
 a {
   color: #dc3545;
-  text-decoration: underline;
-  text-center;
+  text-decoration: none;
 }
 a:hover {
   color: #3399ff;
@@ -669,27 +687,27 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 576px;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1400px;
   }
 }
 .row {
