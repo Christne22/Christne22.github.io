@@ -1,0 +1,76 @@
+
+html {
+   font-size: 12px;
+}
+
+/* body */
+body {
+   max-width: 800px;
+   margin: 0 auto;
+   font-family: "Century Gothic", Tahoma, Arial, Helvetica, sans-serif;
+   background-color: #FFFFF0;
+}
+
+
+/* header section */
+h1 {
+   padding: 0.6em 0 0 0;
+   text-align: center;
+   font-family: "Lucida Handwriting", Bitter, "Times New Roman", Times, serif;
+   font-weight: 500;
+   color: ivory;
+   background-color: #45b0c7;
+   font-size: 3.4em;
+}
+
+.intro {
+   padding: 2rem 0 1rem 0;
+   background-color: ivory;
+   position: relative;
+}
+.page {
+   padding: 1rem 0 .025rem 0;
+   font-size: 1.4em;
+   line-height: 1.6em;
+   text-align: center;
+}
+
+.title {
+   padding-top: 1rem;
+   font-size: 1.4em;
+   line-height: 1.6em;
+   text-align: center;
+   font-family: "Lucida Handwriting", Bitter, "Times New Roman", Times, serif;
+}
+
+
+.list {
+   padding: 2rem 0 2rem 0;
+   background-color: #a0c4cc;
+   position: relative;
+   }
+
+ul.columns {
+   text-align: left;
+   font-size: 1.5rem;
+ }
+
+a, article, body, div, footer, header, h1, h2, h3, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+footer {
+   margin-top: 1em;
+}
+.footer {
+   padding: 0.6em;
+   background-color: #0b5e70;
+   font-family: "Century Gothic", Tahoma, Arial, Helvetica, sans-serif;
+   color: ivory;
+   text-align: center;
+   font-size: 1rem;
+}
+
+
+
