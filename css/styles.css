@@ -1,0 +1,256 @@
+
+html {
+   font-size: 12px;
+   font-family: "Century Gothic", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/* body */
+body {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+}
+
+/* header section */
+h1 {
+   padding: 0.6em 0 0.6em 0;
+   text-align: center;
+   position: relative;
+   font-weight: 400;
+   color: ivory;
+   background-color: #0b5e70;
+   font-size: 3em;
+   margin-bottom: 0.25em;
+}
+
+.navbar {
+   font-size: 1.5em;
+   height: 3em;
+   position: relative;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 0 3rem 0 2px;
+}
+
+.container-navbar {
+   padding: 0 2em 0 2em;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  padding-right: 0;
+  padding-left: 1rem;
+}
+
+.nav-item {
+   padding: 1rem 1rem 1rem 0;
+   background-color: #a0c4cc;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+   margin-right: 0.5rem;
+   margin-left: 0.5rem;
+}
+
+.home {
+   padding: 0 0 1rem 0;
+   position: relative;
+}
+
+.container-home {
+   width: 98%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+   text-align: center;
+}
+
+.page1 {
+   width: 49%;
+   justify-content: left;
+   padding: .5em;
+   font-size: 1.5em;
+   margin-right: 0.5em;
+   text-align: center;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.page2 {
+   width: 49%;
+   justify-content: right;
+   padding: .5em;
+   font-size: 1.5em;
+   margin-left: 0.5em;
+   text-align: center;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.pre-mission {
+   height: 300px;
+   position: relative;
+}
+
+.historical {
+   padding: 0 0 1rem 0;
+   position: relative;
+}
+
+.container-historical {
+   width: 98%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+   text-align: center;
+}
+
+
+.key-events {
+   width: 49%;
+   justify-content: left;
+   padding:.5em;
+   font-size: 1.5em;
+   margin-right: 0.5em;
+   text-align: center;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.key-figures {
+   width: 49%;
+   justify-content: right;
+   padding: .5em;
+   font-size: 1.5em;
+   margin-left: 0.5em;
+   text-align: center;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.container-historical-2 {
+   width: 98%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+   text-align: center;
+}
+
+.key-milestones {
+   width: 49%;
+   justify-content: left;
+   padding:.5em;
+   font-size: 1.5em;
+   margin-right: 0.5em;
+   text-align: center;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.historical-roots {
+   width: 49%;
+   justify-content: right;
+   padding: .5em;
+   font-size: 1.5em;
+   margin-left: 0.5em;
+   text-align: center;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.current {
+   padding: 0 0 1rem 0;
+   position: relative;
+}
+
+.container-current {
+   width: 98%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+   text-align: center;
+}
+
+
+.current-state-of {
+   width: 49%;
+   justify-content: left;
+   padding:.5em;
+   font-size: 1.5em;
+   margin-right: 0.5em;
+   text-align: left;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.post-mission {
+   height: 300px;
+   position: relative;
+}
+
+.how-dei-rollbacks {
+   width: 49%;
+   justify-content: right;
+   padding: .5em;
+   font-size: 1.5em;
+   margin-left: 0.5em;
+   text-align: left;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+.resources {
+   padding: 0 0 1rem 0;
+   position: relative;
+}
+
+.container-resources {
+   width: 98%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
+   text-align: center;
+}
+
+.resource-citations {
+   width: 98%;
+   padding: .5em;
+   font-size: 1.5em;
+   margin-right: 0.5em;
+   text-align: left;
+   border: 3px solid #0b5e70;
+   border-radius: 0.25rem;
+}
+
+footer {
+   margin-top: 1.5em;
+   padding: 1em;
+   background-color: #0b5e70;
+   color: ivory;
+   text-align: center;
+   font-size: 1.25rem;
+}
+
+.footer-fixed {
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+}
+
